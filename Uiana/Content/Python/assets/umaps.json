@@ -2,46 +2,70 @@
   "character select": [
     "ShooterGame/Content/Maps/PregameV2/CharacterSelectPersistentLevel"
   ],
-  "haven": [
-    "/Game/Maps/Triad/Triad"
+  "Bridge": [
+    "Game/Maps/bridge/bridge"
   ],
-  "pearl": [
-    "/Game/Maps/Pitt/Pitt"
+  "Bunker": [
+    "/Game/Maps/Bunker/Bunker01"
   ],
-  "fracture": [
-    "/Game/Maps/Canyon/Canyon"
+  "ContainerYard": [
+    "/Game/Maps/containeryard/ContainerYard_01_Main"
   ],
-  "range": [
-    "/Game/Maps/Poveglia/Range"
+  "ContainerYardNight": [
+    "/Game/Maps/containeryard/Night/ContainerYard_01_Main_Night"
   ],
-  "split": [
-    "/Game/Maps/Bonsai/Bonsai"
+  "DataCenter": [
+    "/Game/Maps/datacenter/datacenter"
   ],
-  "bind": [
-    "/Game/Maps/Duality/Duality"
+  "DataCenterNight": [
+    "/Game/Maps/datacenter/DataCenterNight/Datacenter_Night"
   ],
-  "breeze": [
-    "/Game/Maps/Foxtrot/Foxtrot"
+  "Hospital": [
+    "/Game/Maps/hospital/hospital_01"
   ],
-  "ascent": [
-    "/Game/Maps/Ascent/Ascent"
+  "Industry": [
+    "Game/Maps/Industry/Industry_01"
   ],
-  "icebox": [
-    "/Game/Maps/Port/Port"
+  "IndustryNight": [
+    "/Game/Maps/Industry/IndustryNight/Industry_Night_01"
   ],
-  "piazza": [
-    "/Game/Maps/HURM/HURM_Yard/HURM_Yard"
+  "KillHouse": [
+    "/Game/Maps/Killhouse/Killhouse_01"
   ],
-  "district": [
-    "/Game/Maps/HURM/HURM_Alley/HURM_Alley"
+  "PavlovWWII(Main Menu)": [
+    "/Game/Maps/PavlovWWII/PavlovWWII_01"
   ],
-  "kasbah": [
-    "/Game/Maps/HURM/HURM_Bowl/HURM_Bowl"
+  "Prisionbreak (Siberia)": [
+    "/Game/Maps/prisonbreak/PrisonBreak_01"
   ],
-  "menu": [
-    "/Game/Maps/Menu/MainMenuV2"
+  "Sandv2": [
+    "/Game/Maps/sand/Sand_Revamp/sand_Revamp"
   ],
-  "lotus": [
-    "/Game/Maps/Jam/Jam"
+  "Sandv2Night": [
+    "/Game/Maps/sand/Sand_Night/sand_Night"
+  ],
+  "Santorini": [
+    "/Game/Maps/Santorini/Santorini_01"
+  ],
+  "SantoriniNight": [
+    "/Game/Maps/Santorini/Santorini_Night/Santorini_Night_01"
+  ],
+  "SpectatorRoom": [
+    "/Game/Maps/Spectating/spectator_room"
+  ],
+  "Subway (Station)": [
+    "/Game/Maps/subway/subway_01"
+  ],
+  "SubwayNight": [
+    "/Game/Maps/subway/Subway_Night/subway_01_Night"
+  ],
+  "tank_stalingrad": [
+    "/Game/Maps/tank_stalingrad/tank_stalingrad_01"
+  ],
+  "tank_stalingradNight": [
+    "/Game/Maps/tank_stalingrad/Stalingrad_Night/tank_stalingrad_01_Night"
+  ],
+  "Tutorial": [
+    "/Game/Maps/Tutorial/Tutorial01"
   ]
 }

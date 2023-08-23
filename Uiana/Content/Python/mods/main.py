@@ -31,7 +31,7 @@ def create_override_material(data):
             material_array.append(None)
             continue
         material_array.append(unreal.load_asset(
-            f'/Game/ValorantContent/Materials/{object_name}'))
+            f'/Game/Environment/Master_Materials{object_name}'))
     return material_array
 
 
@@ -247,7 +247,7 @@ def settings_create_ovr_material(mat_dict: list):
             continue
         loaded = unreal.load_asset(f'/Uiana/Materials/{object_name}')
         if loaded == None:
-            loaded = unreal.load_asset(f'/Game/ValorantContent/Materials/{object_name}')
+            loaded = unreal.load_asset(f'/Game/Materials{object_name}')
         material_array.append(loaded)
     return material_array
 
@@ -550,7 +550,7 @@ def import_blueprint(bp_actor: actor_defs, umap_data: list):
 def create_new_level(map_name):
     ## Creates a new level with the map name
     new_map = map_name.split('_')[0]
-    map_path = (f"/Game/ValorantContent/Maps/{new_map}/{map_name}")
+    map_path = (f"/Game/Maps/{new_map}/{map_name}")
     loaded_map = unreal.load_asset(map_path)
     sub_system_editor = unreal.get_editor_subsystem(unreal.LevelEditorSubsystem)
     unreal.LevelEditorSubsystem.new_level(sub_system_editor, map_path)

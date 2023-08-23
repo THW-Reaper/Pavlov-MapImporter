@@ -3,8 +3,8 @@
 
 UUianaDataSettings::UUianaDataSettings(const FObjectInitializer& ObjectInitializer)
 {
-	ExportFolder.Path = "C:/Exports";
-	PaksFolder.Path = "C:/Riot Games/VALORANT/live/ShooterGame/Content/Paks";
+	ExportFolder.Path = "D:/Documents/pavimports";
+	PaksFolder.Path = "D:/Apps/Steam/steamapps/common/PavlovVR/Pavlov/Content/Paks";
 	Map = Split;
 	ImportMeshes = true;
 	ImportMaterials = true;

@@ -45,16 +45,16 @@ namespace cue4extractor
         /// <param name="fileList">An option whose argument is parsed as a FileInfo</param>
         /// <param name="gameUmaps">An option whose argument is parsed as a FileInfo</param>
         private static void Main(
-            string gameDirectory = @"C:\Riot Games\VALORANT\live\ShooterGame\Content\Paks",
-            string aesKey = "0x4BE71AF2459CF83899EC9DC2CB60E22AC4B3047E0211034BBABE9D174C069DD6",
-            string exportDirectory = @"D:\TEtestze",
-            string mapName = "kasbah",
+            string gameDirectory = @"D:\Apps\Steam\steamapps\common\PavlovVR\Pavlov\Content\Paks",
+            string aesKey = "0x0000000000000000000000000000000000000000000000000000000000000000",
+            string exportDirectory = @"D:\Documents\pavimports",
+            string mapName = "Santorini",
             // string fileList = "D:\\__programming\\_github\\valorant-luvi\\export\\_datas\\ascent\\Ascent_Art_A_assets_obj.txt",
             string fileList = "",
-            string gameUmaps = @"E:\Uiana-MapImporter\Uiana\Content\Python\assets\umaps.json"
+            string gameUmaps = @"D:\Documents\Repos\MapImporter\Uiana\Content\Python\assets\umaps.json"
             )
         {
-            var versions = new VersionContainer(EGame.GAME_Valorant);
+            var versions = new VersionContainer(EGame.GAME_Pavlov);
             var provider = new DefaultFileProvider(gameDirectory, SearchOption.AllDirectories, true, versions);
             provider.Initialize();
             provider.SubmitKey(new FGuid(), new FAesKey(aesKey));
