@@ -4,8 +4,8 @@
 UUianaDataSettings::UUianaDataSettings(const FObjectInitializer& ObjectInitializer)
 {
 	ExportFolder.Path = "D:/Documents/pavimports";
-	PaksFolder.Path = "D:/Apps/Steam/steamapps/common/PavlovVR/Pavlov/Content/Paks";
-	Map = Split;
+	PaksFolder.Path = "D:/Documents/pavimports/421paks";
+	Map = Santorini;
 	ImportMeshes = true;
 	ImportMaterials = true;
 	ImportDecals = true;

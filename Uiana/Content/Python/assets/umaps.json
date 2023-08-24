@@ -1,7 +1,4 @@
 {
-  "character select": [
-    "ShooterGame/Content/Maps/PregameV2/CharacterSelectPersistentLevel"
-  ],
   "Bridge": [
     "Game/Maps/bridge/bridge"
   ],
