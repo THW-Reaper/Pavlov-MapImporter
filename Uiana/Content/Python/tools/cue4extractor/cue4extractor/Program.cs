@@ -54,7 +54,7 @@ namespace cue4extractor
             string gameUmaps = @"D:\Documents\Repos\MapImporter\Uiana\Content\Python\assets\umaps.json"
             )
         {
-            var versions = new VersionContainer(EGame.GAME_Pavlov);
+            var versions = new VersionContainer(EGame.GAME_UE4_21);
             var provider = new DefaultFileProvider(gameDirectory, SearchOption.AllDirectories, true, versions);
             provider.Initialize();
             provider.SubmitKey(new FGuid(), new FAesKey(aesKey));

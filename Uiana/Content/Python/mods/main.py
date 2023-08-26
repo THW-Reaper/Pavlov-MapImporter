@@ -40,7 +40,7 @@ def extract_assets(settings: Settings):
     asset_objects = settings.selected_map.folder_path.joinpath("all_assets.txt")
     args = [settings.umodel.__str__(),
             f"-path={settings.paks_path.__str__()}",
-            f"-game=valorant",
+            f"-game=VER_UE4_21",
             f"-aes={settings.aes}",
             f"-files={asset_objects}",
             "-export",
