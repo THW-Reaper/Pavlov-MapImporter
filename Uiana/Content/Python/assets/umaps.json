@@ -29,10 +29,10 @@
   "KillHouse": [
     "/Game/Maps/Killhouse/Killhouse_01"
   ],
-  "PavlovWWII(Main Menu)": [
+  "PavlovWWII": [
     "/Game/Maps/PavlovWWII/PavlovWWII_01"
   ],
-  "Prisionbreak (Siberia)": [
+  "Prisionbreak": [
     "/Game/Maps/prisonbreak/PrisonBreak_01"
   ],
   "Sandv2": [
@@ -50,7 +50,7 @@
   "SpectatorRoom": [
     "/Game/Maps/Spectating/spectator_room"
   ],
-  "Subway (Station)": [
+  "Subway": [
     "/Game/Maps/subway/subway_01"
   ],
   "SubwayNight": [
