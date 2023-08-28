@@ -30,7 +30,7 @@ class UeSettings:
     fMapName = args.MapName
     if fMapName == "characterSelect":
         fMapName = "character select"
-    vAesKey = "0x4BE71AF2459CF83899EC9DC2CB60E22AC4B3047E0211034BBABE9D174C069DD6"
+    vAesKey = "0x0000000000000000000000000000000000000000000000000000000000000000"
     iManualLMResMult = float(args.ManualLMResMult)
     bImportSubLevels = bool(args.ImportSubLevels)
     PExportPath = Path(args.ExportPath)
